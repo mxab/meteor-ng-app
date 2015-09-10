@@ -15,12 +15,7 @@ if (Meteor.isClient) {
             vm.date = new Date();
         }, 1000)
     }
-
-
-    Meteor.startup(function () {
-        var rootElement = document.getElementById('app');
-        angular.bootstrap(rootElement, ['myApp']);
-    });
+    
 
 
 }
