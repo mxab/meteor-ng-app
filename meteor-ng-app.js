@@ -1,5 +1,5 @@
 if (Meteor.isClient) {
-    
+
     angular.module('myApp', []).controller('AppCtrl', AppController);
 
     function AppController($interval) {
