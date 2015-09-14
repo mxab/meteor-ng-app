@@ -1,8 +1,6 @@
 if (Meteor.isClient) {
-
-
+    
     angular.module('myApp', []).controller('AppCtrl', AppController);
-
 
     function AppController($interval) {
 
@@ -15,7 +13,4 @@ if (Meteor.isClient) {
             vm.date = new Date();
         }, 1000)
     }
-    
-
-
 }
