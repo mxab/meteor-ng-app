@@ -1,7 +1,7 @@
-#Setup
+Simple app with angular-meteor-platform
+
+# Setup
 
 ```
-git submodule init && git submodule update
-
 meteor
 ```

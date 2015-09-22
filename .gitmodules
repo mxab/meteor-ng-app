@@ -1,3 +1,0 @@
-[submodule "packages/angular-meteor-platform"]
-	path = packages/angular-meteor-platform
-	url = https://github.com/planet-training/angular-meteor-platform.git
